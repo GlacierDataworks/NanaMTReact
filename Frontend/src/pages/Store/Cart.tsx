@@ -1,0 +1,1 @@
+// Cart.tsx code here\nimport React from 'react';\n\nconst Cart: React.FC = () => {\n  return (\n    <div>\n      <h1>Your Cart</h1>\n      <p>Items in your cart will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default Cart;

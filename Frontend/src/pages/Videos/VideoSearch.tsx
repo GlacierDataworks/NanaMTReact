@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst VideoSearch: React.FC = () => {\n  return (\n    <div>\n      <h1>Video Search</h1>\n      <p>Video search functionality will go here.</p>\n    </div>\n  );\n};\n\nexport default VideoSearch;

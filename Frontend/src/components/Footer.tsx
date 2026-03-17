@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Footer: React.FC = () => {\n  return (\n    <footer>\n      <p>&copy; {new Date().getFullYear()} Nana of Montana. All rights reserved.</p>\n    </footer>\n  );\n};\n\nexport default Footer;

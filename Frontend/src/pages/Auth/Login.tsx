@@ -1,0 +1,1 @@
+// Login.tsx code here\nimport React from 'react';\n\nconst Login: React.FC = () => {\n  return (\n    <div>\n      <h1>Login</h1>\n      <p>Login form will go here.</p>\n    </div>\n  );\n};\n\nexport default Login;

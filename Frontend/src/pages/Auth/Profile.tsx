@@ -1,0 +1,1 @@
+// Profile.tsx code here\nimport React from 'react';\n\nconst Profile: React.FC = () => {\n  return (\n    <div>\n      <h1>Your Profile</h1>\n      <p>User profile information will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default Profile;

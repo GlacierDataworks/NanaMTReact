@@ -1,0 +1,1 @@
+// auth.service.ts code here\nimport api from './api';\n\nconst AuthService = {\n  login: async (data) => {\n    return await api.post('/auth/login', data);\n  },\n  register: async (data) => {\n    return await api.post('/auth/register', data);\n  },\n};\n\nexport default AuthService;

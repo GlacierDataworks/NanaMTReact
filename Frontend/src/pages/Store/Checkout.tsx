@@ -1,0 +1,1 @@
+// Checkout.tsx code here, integrating PayPal\nimport React from 'react';\n\nconst Checkout: React.FC = () => {\n  return (\n    <div>\n      <h1>Checkout</h1>\n      <p>PayPal integration will be implemented here.</p>\n    </div>\n  );\n};\n\nexport default Checkout;

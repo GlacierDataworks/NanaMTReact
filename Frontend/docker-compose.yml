@@ -1,0 +1,1 @@
+version: '3.8'\nservices: \n  frontend: \n    build: ./Frontend\n    ports: \n      - '3000:3000'\n    networks: \n      - app-network\n  backend: \n    build: ./NanaMTReact.API\n    ports: \n      - '5000:5000'\n    networks: \n      - app-network\nnetworks: \n  app-network: \n    driver: bridge\n

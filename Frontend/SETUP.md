@@ -1,0 +1,1 @@
+# SETUP Instructions for Nana of Montana\n\n## Database Migration\n1. Ensure your database server is running.\n2. Run the following command to apply migrations: `dotnet ef database update`\n\n## Identity Configuration\n1. Configure ASP.NET Identity and set up management for user registration and authentication.

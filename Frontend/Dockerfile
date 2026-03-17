@@ -1,0 +1,1 @@
+# Dockerfile for building the React app\nFROM node:16\nWORKDIR /app\nCOPY ./Frontend/package.json ./\nCOPY ./Frontend/package-lock.json ./\nRUN npm install\nCOPY ./Frontend ./\nRUN npm run build\nCMD [ "npx", "serve", "build" ]

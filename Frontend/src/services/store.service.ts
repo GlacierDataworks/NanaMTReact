@@ -1,0 +1,1 @@
+// store.service.ts code here\nimport api from './api';\n\nconst StoreService = {\n  getAllProducts: async () => {\n    return await api.get('/products');\n  },\n  getProductById: async (id) => {\n    return await api.get(`/products/${id}`);\n  },\n};\n\nexport default StoreService;

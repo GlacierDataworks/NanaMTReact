@@ -1,0 +1,1 @@
+// recipe.service.ts code here\nimport api from './api';\n\nconst RecipeService = {\n  getAll: async () => {\n    return await api.get('/recipes');\n  },\n  getById: async (id) => {\n    return await api.get(`/recipes/${id}`);\n  },\n};\n\nexport default RecipeService;

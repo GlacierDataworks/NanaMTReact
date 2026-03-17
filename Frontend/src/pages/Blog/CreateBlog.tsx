@@ -1,0 +1,1 @@
+// CreateBlog.tsx code here\nimport React from 'react';\n\nconst CreateBlog: React.FC = () => {\n  return (\n    <div>\n      <h1>Create Blog</h1>\n      <p>Blog creation form will go here.</p>\n    </div>\n  );\n};\n\nexport default CreateBlog;

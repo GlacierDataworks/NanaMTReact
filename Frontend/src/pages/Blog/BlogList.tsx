@@ -1,0 +1,1 @@
+// BlogList.tsx code here\nimport React from 'react';\n\nconst BlogList: React.FC = () => {\n  return (\n    <div>\n      <h1>Blog List</h1>\n      <p>List of blogs will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default BlogList;

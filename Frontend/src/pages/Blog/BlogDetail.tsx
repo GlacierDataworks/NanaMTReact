@@ -1,0 +1,1 @@
+// BlogDetail.tsx code here\nimport React from 'react';\n\nconst BlogDetail: React.FC = () => {\n  return (\n    <div>\n      <h1>Blog Detail</h1>\n      <p>Details of the selected blog will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default BlogDetail;

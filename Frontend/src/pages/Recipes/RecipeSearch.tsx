@@ -1,0 +1,1 @@
+// RecipeSearch.tsx code here\nimport React from 'react';\n\nconst RecipeSearch: React.FC = () => {\n  return (\n    <div>\n      <h1>Recipe Search</h1>\n      <p>Recipe search functionality will go here.</p>\n    </div>\n  );\n};\n\nexport default RecipeSearch;

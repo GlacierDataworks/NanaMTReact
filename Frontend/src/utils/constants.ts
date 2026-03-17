@@ -1,0 +1,1 @@
+// constants.ts code here\nconst constants = {\n  API_URL: 'http://localhost:5000/api', // Replace with your actual API URL\n};\n\nexport default constants;

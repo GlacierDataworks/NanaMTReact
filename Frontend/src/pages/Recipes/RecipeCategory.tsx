@@ -1,0 +1,1 @@
+// RecipeCategory.tsx code here\nimport React from 'react';\n\nconst RecipeCategory: React.FC = () => {\n  return (\n    <div>\n      <h1>Recipe Categories</h1>\n      <p>Categories of recipes will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default RecipeCategory;

@@ -1,0 +1,1 @@
+// ProductDetail.tsx code here\nimport React from 'react';\n\nconst ProductDetail: React.FC = () => {\n  return (\n    <div>\n      <h1>Product Detail</h1>\n      <p>Details of the selected product will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default ProductDetail;

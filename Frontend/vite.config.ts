@@ -1,0 +1,1 @@
+{\n  "root": true,\n  "build": {\n    "outDir": "dist",\n    "rollupOptions": {\n      "input": "src/index.tsx"\n    }\n  }\n}

@@ -1,0 +1,1 @@
+// VideoGallery.tsx code here\nimport React from 'react';\n\nconst VideoGallery: React.FC = () => {\n  return (\n    <div>\n      <h1>Video Gallery</h1>\n      <p>Collection of videos will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default VideoGallery;

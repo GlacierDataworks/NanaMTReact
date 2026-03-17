@@ -1,0 +1,1 @@
+// RecipeDetail.tsx code here\nimport React from 'react';\n\nconst RecipeDetail: React.FC = () => {\n  return (\n    <div>\n      <h1>Recipe Detail</h1>\n      <p>Details of the selected recipe will be displayed here.</p>\n    </div>\n  );\n};\n\nexport default RecipeDetail;

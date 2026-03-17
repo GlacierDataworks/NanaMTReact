@@ -1,0 +1,1 @@
+// blog.service.ts code here\nimport api from './api';\n\nconst BlogService = {\n  getAll: async () => {\n    return await api.get('/blog');\n  },\n  create: async (data) => {\n    return await api.post('/blog', data);\n  },\n};\n\nexport default BlogService;

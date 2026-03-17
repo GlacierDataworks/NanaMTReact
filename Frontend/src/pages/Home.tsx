@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst Home: React.FC = () => {\n  return (\n    <div>\n      <h1>Welcome to Nana of Montana!</h1>\n      <p>Your journey to becoming a Nana starts here!</p>\n    </div>\n  );\n};\n\nexport default Home;

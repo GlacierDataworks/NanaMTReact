@@ -1,0 +1,1 @@
+// Register.tsx code here\nimport React from 'react';\n\nconst Register: React.FC = () => {\n  return (\n    <div>\n      <h1>Register</h1>\n      <p>Registration form will go here.</p>\n    </div>\n  );\n};\n\nexport default Register;
